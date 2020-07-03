@@ -1,3 +1,4 @@
+/* Nav */
 nav {
     display: flex;
     width: 100%;
@@ -36,4 +37,34 @@ nav .ul-inline {
 }
 nav .ul-inline-li, a {
     color: grey;
+}
+
+/* Hero */
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+.hero h2 {
+    color: #ce973e;
+    margin: 2rem 0;
+}
+.hero h5 {
+    color: rgba(74,74,74,0.7);
+    margin-bottom: 4rem;
+}
+.hero button {
+    background-color: #6abfc3;
+    border-radius: 0.2em;
+    box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+    color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    padding: 1rem 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin: 3rem 0;
 }
