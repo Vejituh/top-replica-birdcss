@@ -95,3 +95,52 @@ nav .ul-inline-li, a {
 .grid img {
     max-height: 120px;
 }
+
+/* Languages section */
+.lang-learned {
+    background-color: #f3f3f3;
+}
+.lang-learned header h5 {
+    padding: 4rem 0;
+    color: #4a4a4a;
+}
+.lang-learned div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 950px;
+}
+.lang-learned article {
+    padding: 1rem 3rem;
+    margin: 1rem 0.5rem;
+}
+@media all and (max-width: 700px){
+    .lang-learned article {
+        padding: 2rem 5rem;
+    }
+}
+.lang-learned article h5 {
+    color: #4a4a4a;
+}
+.lang-learned article figure img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 2rem;
+}
+.started {
+    border-radius: 0.2em;
+    box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+    background-color: #cc9543;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    padding: 1rem 3.5rem;
+    margin: 3rem 0;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
