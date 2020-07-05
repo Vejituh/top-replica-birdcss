@@ -43,6 +43,7 @@ nav .ul-inline-li, a {
 .hero {
     display: flex;
     flex-direction: column;
+    background-color: #fff;
 }
 .hero h2 {
     color: #ce973e;
@@ -67,4 +68,30 @@ nav .ul-inline-li, a {
     cursor: pointer;
     border: none;
     margin: 3rem 0;
+}
+
+/* Bio */
+.bio {
+    padding: 4rem 0;
+}
+.bio .main {
+    margin: 2rem auto 2rem auto;
+    float: none !important;
+    line-height: 2rem;
+    color: rgba(74,74,74,0.7);
+}
+.bio h5 {
+    color: #4a4a4a;
+    margin: 2rem 0;
+}
+.bio article p{
+    color: rgba(74,74,74,0.7);
+    line-height: 2rem;
+}
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+}
+.grid img {
+    max-height: 120px;
 }
