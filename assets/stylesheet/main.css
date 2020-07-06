@@ -144,3 +144,62 @@ nav .ul-inline-li, a {
     cursor: pointer;
     border: none;
 }
+
+/* Stories */
+.stories {
+    background-image: linear-gradient(to bottom, #fff, #eee);
+}
+.stories .stories-cont {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.stories article {
+    flex-flow: row!important;
+    margin-bottom: 4rem;
+    padding: 0 4rem;
+}
+@media all and (max-width: 1200px) {
+    .stories article {
+        padding: 0;
+    }
+}
+.stories [class*=col-] {
+    background: none!important;
+}
+.stories h5 {
+    margin: 6rem 0;
+}
+.stories h4 {
+    margin: 2rem 0;
+    color: rgba(74,74,74,0.7);
+}
+.stories article h6 {
+    color: #ce973e;
+    margin-bottom: 0.75rem;
+}
+.stories article p {
+    color: rgba(74,74,74,0.7);
+}
+.stories img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 1.5rem;
+}
+.stories button {
+    background-color: #6abfc3;
+    border-radius: 0.2em;
+    box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+    color: #fff;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    padding: 1rem 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    margin: 3rem 0;
+}
